@@ -16,11 +16,12 @@ class _HomeState extends State<Home> {
         child: Column(
           children: <Widget>[
             TextButton.icon(
-              onLongPress:() {
+              onPressed:() {
                 Navigator.pushNamed(context,'/location');
               }, 
               icon: Icon(Icons.edit_location), 
-              label: Text('Edit Location'), onPressed: () {},)
+              label: Text('Edit Location'),
+              ),
           ],
         )),
 
